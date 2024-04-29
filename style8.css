@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+section {
+    height: 30vh;
+    width: 30vw;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8vh;
+}
+
+h4 {
+    font-size: 1rem;
+    color: #000000;
+}
+
+input {
+    font-size: 1rem;
+    padding-left: 2%;
+}
+
+button {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: steelblue;
+    padding: 5px;
+}

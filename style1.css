@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10%;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #000000;
+}
+
+button {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: steelblue;
+    padding: 3px;
+}
